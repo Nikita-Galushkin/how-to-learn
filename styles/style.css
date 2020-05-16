@@ -63,6 +63,10 @@ h1, h2, h3, h4, p {
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #53eaea;
+}
+
 .header__mail-illustration {
   height: 608px;
   width: 765px;
@@ -223,6 +227,11 @@ h1, h2, h3, h4, p {
   right: 48px;
 }
 
+.feynman__link:hover {
+  transform: scale(1.15);
+}
+
+
 /* section feynman end */
 
 
@@ -327,6 +336,11 @@ h1, h2, h3, h4, p {
 .footer__link {
   color: white;
   text-decoration: none;
+}
+
+.footer__link:hover {
+  background: #1f1f1f;
+  opacity: .3;
 }
 
 .footer__link_icon_size {
