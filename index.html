@@ -46,7 +46,7 @@
               чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка
               быстро выветривается и не приносит пользы.
             </p>
-            <p class="two-colums__paragraph two-colums__paragraph_margin">
+            <p class="two-colums__paragraph">
               <span class="two-colums__span-accent ">
                 Вывод:
               </span>
@@ -64,12 +64,12 @@
       <!--section description end-->
       <!--section digits-->
       <section>
-        <h2 class="section__title">
+        <h2 class="section-title">
           Цифры и факты
         </h2>
-        <h3 class="section__subtitle">
+        <p class="section-subtitle">
           Про учёбу и мозг
-      </h3>
+        </p>
         <div class="table">
           <div class="table__cell">
             <h3 class="table__heading">
@@ -85,9 +85,9 @@
             </h3>
             <p class="table__text">
               Число нуждающихся в повышении квалификации
-              <span class="table__span">
-                Всемирный Банк, 2017
-              </span>
+            </p>
+            <p class="table__text">
+              Всемирный Банк, 2017
             </p>
           </div>
           <div class="table__cell">
@@ -114,9 +114,9 @@
             <p class="table__text">
               Число взрослых людей моложе 25 лет,
               не имеющих образования для трудоустройства
-              <span class="table__span">
-                Всемирный Банк, 2017
-              </span>
+            </p>
+            <p class="table__text">
+              Всемирный Банк, 2017
             </p>
           </div>
           <div class="table__cell">
@@ -151,9 +151,9 @@
         <h2 class="feynman__title">
           Метод Фейнмана
         </h2>
-        <h3 class="feynman__subtitle">
+        <p class="feynman__subtitle">
           Выучить и не забыть.
-        </h3>
+        </p>
         <a href="#" class="feynman__link">
           Подробнее&rarr;
         </a>
@@ -161,13 +161,12 @@
       <!--section feynman end-->
       <!--section kaufman-->
       <section class="kaufman">
-
-        <h2 class="section__title section__title_theme_dark">
+        <h2 class="section-title section-title_theme_dark">
           Принципы обучения
         </h2>
-        <h3 class="section__subtitle section__subtitle_theme_dark">
+        <p class="section-subtitle section-subtitle_theme_dark">
           от Джоша Кауфмана
-        </h3>
+        </p>
         <div class="table table_theme_dark">
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">
@@ -250,9 +249,7 @@
             </p>
           </div>
         </div>
-        <div class="kaufman__triangle">
-          <img src="./images/kaufman-triangle.svg" alt="синий треугольник">
-        </div>
+        <div class="kaufman__triangle"></div>
       </section>
       <!--section kaufman end-->
     </main>
@@ -260,46 +257,58 @@
     <!--footer-->
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
+        <div class="footer__columns footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
-          <div class="footer__author">
+          <p class="footer__author">
             &#169;2020. Никита Галушкин
-          </div>
+          </p>
         </div>
-        <div>
+        <div class="footer__column_content_info">
           <h4 class="footer__column-heading">
             О Практикуме
           </h4>
-          <div class="footer__column-links">
-            <a href="#" class="footer__link">
-              Главная
-            </a>
-            <a href="#" class="footer__link">
-              Концепция
-            </a>
-            <a href="#" class="footer__link">
-              Наставники
-            </a>
-          </div>
+          <ul class="footer__column-links">
+            <li>
+              <a href="#" class="footer__link">
+                Главная
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Концепция
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Наставники
+              </a>
+            </li>
+          </ul>
         </div>
-        <div>
+        <div class="footer__column_content_social">
           <h4 class="footer__column-heading">
             Соцсети
           </h4>
-          <div class="footer__social-icon">
-            <a href="#" class="footer__link">
-              <img src="./images/facebook_color_white.svg" alt="иконка Facebook" class="footer__link_icon_size">
-              Facebook
-            </a>
-            <a href="#" class="footer__link">
-              <img src="./images/vk_color_white.svg" alt="иконка ВКонтакте" class="footer__link_icon_size">
-              ВКонтакте
-            </a>
-            <a href="#" class="footer__link">
-              <img src="./images/instagram_color_white.svg" alt="иконка Instagram" class="footer__link_icon_size">
-              Instagram
-            </a>
-          </div>
+          <ul class="footer__column-links">
+            <li>
+              <a href="#" class="footer__link">
+                <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="иконка Facebook">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="иконка ВКонтакте">
+                ВКонтакте
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="иконка Instagram">
+                Instagram
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
